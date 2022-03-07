@@ -12,7 +12,7 @@ import java.util.Random;
 
             countUp(userNum);
             countDown(userNum);
-            System.out.println("You don't have the desired paper you unprepared waste of space!!!");
+            System.out.println("You don't have the desired paper you unprepared waste of space!!! HAHAHAHA!!");
         }
     
         public static int countUp(int userNum)
