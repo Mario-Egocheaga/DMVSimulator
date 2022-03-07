@@ -6,7 +6,7 @@ import java.util.Random;
         public static void main(String[] args)
         {
             System.out.println("Welcome To The DMV!");
-            int[] num = new int[100];		
+            int[] num = new int[200];		
             int userNum = new Random().nextInt(num.length);
             System.out.println("Your number is " + userNum + "! Please wait to be called.");
 
@@ -18,7 +18,7 @@ import java.util.Random;
         public static int countUp(int userNum)
         {
             int queue = 100;
-            for(int i = userNum + 1; i <= 100; i++)
+            for(int i = userNum + 1; i <= 200; i++)
     
             {
                 queue = i;
