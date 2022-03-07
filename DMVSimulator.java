@@ -12,7 +12,15 @@ import java.util.Random;
 
             countUp(userNum);
             countDown(userNum);
+          
+            if( Math.random() <= 0.01 ) {
+                System.out.println("You do have the required paperwork");
+              }
+            else
+            {
             System.out.println("You don't have the desired paper you unprepared waste of space!!! HAHAHAHA!!");
+
+            }
         }
     
         public static int countUp(int userNum)
